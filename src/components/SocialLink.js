@@ -1,4 +1,3 @@
-import { socialLinks } from '../data';
 function SocialLink({ href, icon, styleIcon }) {
   return (
     <li>
