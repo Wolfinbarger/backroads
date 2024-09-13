@@ -4,7 +4,7 @@ function PageLinks({ parentClass, itemClass }) {
   return (
     <ul className={parentClass} id='nav-links'>
       {pageLinks.map((link) => {
-        return <PageLink {...link} itemClass={itemClass} />;
+        return <PageLink {...link} itemClass={itemClass} key={link.id} />;
       })}
     </ul>
   );
