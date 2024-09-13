@@ -2,8 +2,7 @@ import tour1 from './assets/images/tour-1.jpeg';
 import tour2 from './assets/images/tour-2.jpeg';
 import tour3 from './assets/images/tour-3.jpeg';
 import tour4 from './assets/images/tour-4.jpeg';
-import tour5 from './assets/images/tour-5.jpeg';
-import tour6 from './assets/images/tour-6.jpeg';
+
 export const pageLinks = [
   {
     id: 1,

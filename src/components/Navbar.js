@@ -18,7 +18,6 @@ function Navbar() {
 
         <ul className='nav-icons'>
           {socialLinks.map((link) => {
-            const { id, href, icon } = link;
             return <SocialLink {...link} key={link.id} styleIcon='nav-icon' />;
           })}
         </ul>
